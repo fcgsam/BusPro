@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Aavez Siddiqui",
+  "license": "ISC",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.2.3",
+    "validater": "^1.0.5",
+    "validator": "^13.11.0"
+  }
+}
